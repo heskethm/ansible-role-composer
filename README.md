@@ -1,4 +1,4 @@
-Composer - Ansible Role
+Ansible Role: Composer
 =======================
 
 [![Build Status](https://travis-ci.org/heskethm/ansible-role-composer.svg)](https://travis-ci.org/heskethm/ansible-role-composer)
@@ -14,8 +14,7 @@ $ ansible-galaxy install heskethm.composer
 
 Role Variables
 --------------
-
-All available variables are listed below. You may override these in your Playbook, `group_vars`, command line etc.
+All available variables and default values are listed below. You may override these in your Playbook, `group_vars`, command line etc.
 
 ```yml
 composer_ppa: "ppa:duggan/composer"
